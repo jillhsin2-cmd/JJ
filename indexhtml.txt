@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini 對話紀錄</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; margin: 0; padding: 20px; }
+        .chat-container { max-width: 800px; margin: 0 auto; background: white; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); overflow: hidden; }
+        .message { padding: 20px; border-bottom: 1px solid #eee; }
+        .user-msg { background-color: #f9f9f9; }
+        .gemini-msg { background-color: #ffffff; }
+        .label { font-weight: bold; margin-bottom: 8px; display: block; color: #1a73e8; }
+        .content { line-height: 1.6; color: #333; }
+        pre { background: #272822; color: #f8f8f2; padding: 15px; border-radius: 5px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="message user-msg">
+            <span class="label">您：</span>
+            <div class="content">[請貼上您的問題]</div>
+        </div>
+        <div class="message gemini-msg">
+            <span class="label">Gemini：</span>
+            <div class="content">[請貼上 Gemini 的回答]</div>
+        </div>
+    </div>
+</body>
+</html>
